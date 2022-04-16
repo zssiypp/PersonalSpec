@@ -23,14 +23,14 @@ Pod::Spec.new do |s|
       这个库是用来干嘛的, add 小学数学加法, 随机颜色hahhahh啊
                        DESC
 
-  s.homepage         = 'https://github.com/zssiypp/PersonalMathToolLib'
+  s.homepage         = 'https://www.baidu.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zssiypp' => 'yangpanpan@vclusters.com' }
   s.source           = { :git => 'https://github.com/zssiypp/PersonalMathToolLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PersonalMathToolLib/Classes/**/*'
   
